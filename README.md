@@ -2,6 +2,8 @@
 
 A Model Context Protocol (MCP) server for searching and retrieving images from Wikipedia Commons. This server provides tools to search for images and fetch detailed metadata through the Wikipedia API.
 
+I created this tool because i needed images of Greek Philosopher's with the full attribution and licenses. This will search wikipedia only and download images that are in the public domain and free to use.
+
 ## Features
 
 ### Tools
