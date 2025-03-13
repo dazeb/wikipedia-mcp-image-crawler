@@ -2,7 +2,7 @@
 
 A Model Context Protocol (MCP) server for searching and retrieving images from Wikipedia Commons. This server provides tools to search for images and fetch detailed metadata through the Wikipedia API.
 
-I created this tool because i needed images of Greek Philosopher's with the full attribution and licenses. This will search wikipedia only and download images that are in the public domain and free to use.
+I created this tool because i needed images of Greek philosopher's. I needed to mak sure i had full attribution and licenses. This will search wikipedia only and download images that are in the public domain and free to use.
 
 ## Features
 
@@ -46,12 +46,12 @@ Add the server configuration to your Claude config file:
 
 **MacOS**:
 ```bash
-vim ~/Library/Application\ Support/Claude/claude_desktop_config.json
+nano ~/Library/Application\ Support/Claude/claude_desktop_config.json
 ```
 
 **Linux**:
 ```bash
-vim ~/.config/Claude/claude_desktop_config.json
+nano ~/.config/Claude/claude_desktop_config.json
 ```
 
 **Windows**:
@@ -74,27 +74,6 @@ Add this configuration (adjust the path to where you cloned the repository):
 ```
 
 #### VSCode Extensions
-
-##### Claude VSCode Extension
-
-For the Claude VSCode extension, add to:
-
-**MacOS**:
-```bash
-~/Library/Application\ Support/Code/User/globalStorage/anthropic.claude-vscode/settings/claude_mcp_settings.json
-```
-
-**Linux**:
-```bash
-~/.config/Code/User/globalStorage/anthropic.claude-vscode/settings/claude_mcp_settings.json
-```
-
-**Windows**:
-```bash
-%APPDATA%\Code\User\globalStorage\anthropic.claude-vscode\settings\claude_mcp_settings.json
-```
-
-For VS Code Insiders, replace `Code` with `Code - Insiders` in the paths above.
 
 ##### Cline VSCode Extension
 
